@@ -12,7 +12,11 @@
   justify-content: space-evenly;
 }
 
-.main-info > .top-info > .stats {
+.main-info > .top-info > .top-left > h1 {
+  text-align: center;
+}
+
+.main-info > .top-info > .top-left > .stats {
   margin: 0;
   margin-right: 10px;
   align-items: center;
@@ -25,35 +29,35 @@
   border-radius: 10px;
 }
 
-.main-info > .top-info > .stats > .score {
+.main-info > .top-info > .top-left > .stats > .score {
   align-items: center;
   border-right: 1px solid grey;
   padding: 10px;
   padding-right: 20px;
 }
 
-.main-info > .top-info > .stats > .score > span {
+.main-info > .top-info > .top-left > .stats > .score > span {
   text-align: center;
   color: white;
   background-color: #2e51a2;
   width: 100%;
 }
 
-.main-info > .top-info > .stats > .score > h1 {
+.main-info > .top-info > .top-left > .stats > .score > h1 {
   margin: 10px 0;
 }
 
-.main-info > .top-info > .stats > .stat {
+.main-info > .top-info > .top-left > .stats > .stat {
   margin: 5px;
   display: flex;
 }
 
-.main-info > .top-info > .stats > .stat > .stat-value {
+.main-info > .top-info > .top-left > .stats > .stat > .stat-value {
   font-weight: bolder;
   margin-left: 5px;
 }
 
-.main-info > .top-info > iframe {
+.main-info > .top-info > .top-right > iframe {
   width: 560px;
   height: 315px;
 }
