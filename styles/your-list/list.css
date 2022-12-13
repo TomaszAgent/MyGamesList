@@ -1,0 +1,67 @@
+.content > h1 {
+  text-align: center;
+}
+
+.list {
+  width: 820px;
+}
+
+.list > .top-bar {
+  background: rgb(209, 209, 209);
+  border-top: 1px solid grey;
+  border-bottom: 1px solid grey;
+  display: flex;
+}
+
+.list > .top-bar > p {
+  font-weight: bold;
+  border-right: 1px solid grey;
+  margin: 0;
+  text-align: center;
+}
+
+.list > .top-bar > p:last-child {
+  border: 0;
+}
+
+.list > .top-bar > .cover {
+  width: 170px;
+}
+
+.list > .top-bar > .title,
+.list > .games .title-value {
+  width: 500px;
+}
+
+.list > .top-bar > .date {
+  width: 150px;
+}
+
+.list > .games > .game {
+  display: flex;
+  border-top: 1px solid grey;
+  padding: 5px;
+}
+
+.list > .games > .game:first-child {
+  border: 0;
+}
+
+.list > .games > .game > img {
+  height: 200px;
+  width: 160px;
+  margin-right: 5px;
+}
+
+.list > .games > .game > .info {
+  text-align: center;
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.list > .games > .game > .info > .date-value {
+  width: 140px;
+  margin-left: 5px;
+}

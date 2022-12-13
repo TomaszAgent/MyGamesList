@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="./styles/shared-styles/index.css" />
     <link rel="stylesheet" href="./styles/shared-styles/shared.css " />
     <link rel="stylesheet" href="./styles/shared-styles/nav.css" />
+    <link rel="stylesheet" href="./styles/your-list/list.css" />
     <link rel="icon" href="./assets/favicon.svg" />
     <title>My Games List</title>
   </head>
@@ -35,13 +36,35 @@
       </div>
     </nav>
     <main class="center">
-      <section class="list">
-        <div>
-          <h1>Your list:</h1>
+      <section class="content">
+        <h1>Your list:</h1>
+        <div class="list">
+          <div class="top-bar">
+            <p class="cover">Cover</p>
+            <p class="title">Title</p>
+            <p class="date">Date of addition</p>
+          </div>
           <div class="games column">
             <div class="game">
               <img src="./assets/covers/Witcher3-cover.jpg" alt="game cover" />
-              <span>The Witcher 3: Wild Hunt</span>
+              <div class="info">
+                <a href="./games/Witcher3.html" class="game-link title-value"
+                  ><span>The Witcher 3: Wild Hunt</span></a
+                >
+                <span class="date-value">10.04.2022</span>
+              </div>
+            </div>
+            <div class="game">
+              <img
+                src="./assets/covers/GoWRagnarok-cover.jpg"
+                alt="game cover"
+              />
+              <div class="info">
+                <a href="./games/GoWRagnarok.html" class="game-link title-value"
+                  ><span>God Of War: Ragnarok</span></a
+                >
+                <span class="date-value">27.07.2022</span>
+              </div>
             </div>
           </div>
         </div>
