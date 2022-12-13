@@ -1,0 +1,37 @@
+.game-link {
+  color: rgb(0, 0, 0);
+}
+
+.game-link:hover {
+  color: rgb(121, 121, 121);
+}
+
+.recommendations {
+  padding: 0 30px;
+}
+
+.recommendations > .recommendation {
+  width: 1000px;
+  display: flex;
+  padding: 10px;
+  padding-bottom: 30px;
+  margin: 10px 0;
+  border-bottom: 1px solid grey;
+}
+
+.recommendations > .recommendation > .cover {
+  display: flex;
+  box-sizing: border-box;
+  height: 300px;
+  width: 240px;
+  margin-right: 30px;
+}
+
+.recommendations > .recommendation > .cover > img {
+  height: 100%;
+  width: 240px;
+}
+
+.recommendations > .recommendation > .description {
+  align-items: center;
+}

@@ -1,0 +1,9 @@
+.newses {
+  height: 100%;
+  width: 400px;
+  padding: 0 30px;
+}
+
+.newses > .news {
+  align-items: center;
+}

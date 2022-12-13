@@ -1,0 +1,105 @@
+.main-info {
+  width: 1100px;
+}
+
+.main-info > div {
+  padding: 10px;
+}
+
+.main-info > .top-info {
+  border-bottom: 1px solid grey;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.main-info > .top-info > .stats {
+  margin: 0;
+  margin-right: 10px;
+  align-items: center;
+  border-radius: 5px;
+  background: rgb(209, 209, 209);
+  height: 150px;
+  display: flex;
+  padding: 10px;
+  margin: 10px 0;
+  border-radius: 10px;
+}
+
+.main-info > .top-info > .stats > .score {
+  align-items: center;
+  border-right: 1px solid grey;
+  padding: 10px;
+  padding-right: 20px;
+}
+
+.main-info > .top-info > .stats > .score > p {
+  text-align: center;
+  color: white;
+  background-color: #2e51a2;
+  width: 100%;
+}
+
+.main-info > .top-info > .stats > .score > h1 {
+  margin: 10px 0;
+}
+
+.main-info > .top-info > .stats > .stat {
+  margin: 5px;
+  display: flex;
+}
+
+.main-info > .top-info > .stats > .stat > .stat-value {
+  font-weight: bolder;
+  margin-left: 5px;
+}
+
+.main-info > .top-info > iframe {
+  width: 560px;
+  height: 315px;
+}
+
+.main-info > .description {
+  border-bottom: 1px solid grey;
+}
+
+.main-info > .description > h1 {
+  margin: 0;
+  margin-bottom: 10px;
+}
+
+.characters > .character-line {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+
+.characters > .character-line:last-child {
+  margin-bottom: 0;
+}
+
+.characters > .character-line > .character {
+  display: flex;
+  justify-content: space-between;
+  height: 100px;
+  width: 495px;
+  padding: 10px;
+  border-radius: 5px;
+  background: rgb(209, 209, 209);
+}
+
+.characters > .character-line > .character > div {
+  display: flex;
+  align-items: center;
+  padding: 0;
+  height: 100px;
+}
+
+.characters > .character-line > .character img {
+  height: 100px;
+  width: 75px;
+}
+
+.characters > .character-line > .character p {
+  font-weight: bold;
+  margin: 0 10px;
+}

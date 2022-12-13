@@ -1,0 +1,37 @@
+* {
+  font-family: "Montserrat", "Roboto", sans-serif;
+}
+
+body {
+  background: rgb(243, 241, 241);
+  margin: 0px;
+}
+
+main > div {
+  display: flex;
+}
+
+a,
+button {
+  cursor: pointer;
+}
+
+a {
+  text-decoration: none;
+  font-weight: bolder;
+}
+
+button {
+  border: none;
+  background-color: transparent;
+}
+
+main section {
+  border-left: 1px solid grey;
+  border-bottom: 1px solid grey;
+  background: rgb(223, 223, 223);
+}
+
+main section:last-child {
+  border-right: 1px solid grey;
+}
