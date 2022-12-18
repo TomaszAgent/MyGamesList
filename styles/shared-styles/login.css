@@ -16,7 +16,6 @@
 
 #login-window > .login-top {
   display: flex;
-  justify-content: space-between;
 }
 
 #login-window > .login-top > h1 {
@@ -36,20 +35,12 @@
   color: red;
 }
 
-#login-window > .inputs > .login > img {
-  height: 50px;
-}
-
-#login-window > .inputs > .login > input {
-  height: 30px;
-  border-radius: 10px;
-  border: none;
-}
-
+#login-window > .inputs > .login > img,
 #login-window > .inputs > .password > img {
   height: 50px;
 }
 
+#login-window > .inputs > .login > input,
 #login-window > .inputs > .password > input {
   height: 30px;
   border-radius: 10px;
