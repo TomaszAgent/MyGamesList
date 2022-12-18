@@ -11,10 +11,12 @@
     <link rel="stylesheet" href="../styles/shared-styles/index.css" />
     <link rel="stylesheet" href="../styles/shared-styles/shared.css" />
     <link rel="stylesheet" href="../styles/shared-styles/nav.css" />
+    <link rel="stylesheet" href="../styles/shared-styles/login.css" />
     <link rel="stylesheet" href="../styles/game-site/game-site.css" />
     <link rel="stylesheet" href="../styles/game-site/side-info.css" />
     <link rel="stylesheet" href="../styles/game-site/main-info.css" />
     <link rel="icon" href="../assets/favicon.svg" />
+    <script src="../index.js"></script>
     <title>My Games List</title>
   </head>
   <body>
@@ -38,7 +40,7 @@
             src="../assets/avatar.png"
             alt="Profile Picture"
           />
-          <button>Change profile</button>
+          <button onclick="loginAppear()">Change profile</button>
         </div>
       </div>
     </nav>
@@ -261,5 +263,26 @@
         </section>
       </div>
     </main>
+    <form id="login-window" class="column">
+      <div class="login-top">
+        <h1>Log in</h1>
+        <span class="exit" onclick="loginDisappear()">&times;</span>
+      </div>
+      <div class="inputs column">
+        <div class="login center">
+          <img class="" src="../assets/login.png" alt="login" /><input
+            type="text"
+            placeholder="login..."
+          />
+        </div>
+        <div class="password center">
+          <img src="../assets/padlock.png" alt="password" /><input
+            type="text"
+            placeholder="password..."
+          />
+        </div>
+      </div>
+      <button>submit</button>
+    </form>
   </body>
 </html>

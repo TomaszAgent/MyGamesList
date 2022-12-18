@@ -3,7 +3,7 @@
 }
 
 body {
-  background: rgb(243, 241, 241);
+  background: rgb(252, 248, 251);
   margin: 0px;
 }
 
@@ -21,15 +21,10 @@ a {
   font-weight: bolder;
 }
 
-button {
-  border: none;
-  background-color: transparent;
-}
-
 main section {
   border-left: 1px solid grey;
   border-bottom: 1px solid grey;
-  background: rgb(223, 223, 223);
+  background: rgb(253, 242, 250);
 }
 
 main section:last-child {

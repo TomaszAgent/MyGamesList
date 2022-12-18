@@ -10,8 +10,10 @@
     <link rel="stylesheet" href="./styles/shared-styles/index.css" />
     <link rel="stylesheet" href="./styles/shared-styles/shared.css " />
     <link rel="stylesheet" href="./styles/shared-styles/nav.css" />
+    <link rel="stylesheet" href="./styles/shared-styles/login.css" />
     <link rel="stylesheet" href="./styles/your-list/list.css" />
     <link rel="icon" href="./assets/favicon.svg" />
+    <script src="./index.js"></script>
     <title>My Games List</title>
   </head>
   <body>
@@ -31,19 +33,21 @@
         </div>
         <div class="profile">
           <img class="avatar" src="./assets/avatar.png" alt="Profile Picture" />
-          <button>Change profile</button>
+          <button onclick="loginAppear()">Change profile</button>
         </div>
       </div>
     </nav>
     <main class="center">
       <section class="content">
-        <h1>Your list:</h1>
-        <div class="list">
+        <div class="list-top">
+          <h1>Your list:</h1>
           <div class="top-bar">
             <p class="cover">Cover</p>
             <p class="title">Title</p>
             <p class="date">Date of addition</p>
           </div>
+        </div>
+        <div class="list">
           <div class="games column">
             <div class="game">
               <img src="./assets/covers/Witcher3-cover.jpg" alt="game cover" />
@@ -70,5 +74,26 @@
         </div>
       </section>
     </main>
+    <form id="login-window" class="column">
+      <div class="login-top">
+        <h1>Log in</h1>
+        <span class="exit" onclick="loginDisappear()">&times;</span>
+      </div>
+      <div class="inputs column">
+        <div class="login center">
+          <img class="" src="./assets/login.png" alt="login" /><input
+            type="text"
+            placeholder="login..."
+          />
+        </div>
+        <div class="password center">
+          <img src="./assets/padlock.png" alt="password" /><input
+            type="text"
+            placeholder="password..."
+          />
+        </div>
+      </div>
+      <button>submit</button>
+    </form>
   </body>
 </html>

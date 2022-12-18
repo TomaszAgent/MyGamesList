@@ -1,40 +1,49 @@
-.content > h1 {
+.list-top {
+  background: rgb(228, 218, 225);
+}
+
+.list-top > h1 {
   text-align: center;
+  margin: 0;
+  padding: 20px;
 }
 
-.list {
-  width: 820px;
-}
-
-.list > .top-bar {
-  background: rgb(209, 209, 209);
+.list-top > .top-bar {
   border-top: 1px solid grey;
   border-bottom: 1px solid grey;
   display: flex;
+  height: 40px;
 }
 
-.list > .top-bar > p {
+.list-top > .top-bar > p {
   font-weight: bold;
   border-right: 1px solid grey;
   margin: 0;
+  height: 20px;
+  margin: 10px 0;
   text-align: center;
+  text-justify: center;
 }
 
-.list > .top-bar > p:last-child {
+.list-top > .top-bar > p:last-child {
   border: 0;
 }
 
-.list > .top-bar > .cover {
+.list-top > .top-bar > .cover {
   width: 170px;
 }
 
-.list > .top-bar > .title,
+.list-top > .top-bar > .title,
 .list > .games .title-value {
   width: 500px;
 }
 
-.list > .top-bar > .date {
+.list-top > .top-bar > .date {
   width: 150px;
+}
+
+.list {
+  width: 820px;
 }
 
 .list > .games > .game {

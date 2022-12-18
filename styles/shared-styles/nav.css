@@ -2,7 +2,7 @@ nav {
   width: 100%;
   height: 60px;
   border-bottom: 1px solid grey;
-  background-color: rgb(226, 226, 226);
+  background-color: rgb(118, 94, 255);
 }
 
 nav > div {
@@ -41,11 +41,7 @@ nav .search > input {
 
 nav .options > a {
   font-size: large;
-  color: #0095f6;
-}
-
-nav .options > a:hover {
-  color: #0094f6b6;
+  color: #000000;
 }
 
 nav > div > .profile {
@@ -53,10 +49,13 @@ nav > div > .profile {
   height: 50px;
 }
 
-nav > div > .profile > button:hover {
-  color: grey;
+nav > div > .profile > button {
+  border: none;
+  background-color: transparent;
+  color: #000000;
 }
 
-nav > div > .profile > button:active {
-  color: black;
+nav .options > a:hover,
+nav > div > .profile > button:hover {
+  color: #3b3b3b;
 }
